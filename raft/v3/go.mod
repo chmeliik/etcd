@@ -29,6 +29,6 @@ replace go.etcd.io/etcd => ./FORBIDDEN_DEPENDENCY
 
 replace go.etcd.io/etcd/v3 => ./FORBIDDEN_DEPENDENCY
 
-replace go.etcd.io/etcd/client/pkg/v3 => ../client/pkg
+replace go.etcd.io/etcd/client/pkg/v3 => ../client/pkg/v3
 
-replace go.etcd.io/etcd/api/v3 => ../api
+replace go.etcd.io/etcd/api/v3 => ../api/v3
